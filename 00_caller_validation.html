@@ -61,7 +61,7 @@
                 <div class="container">
                     <div class="header-full-title">
                         <h1 class="animated fadeInRight"><a href="00_index.html">is <span>helpdesk</span></a></h1>
-                        <p class="animated fadeInRight">Powershell scripts manager</p>
+                        <p class="animated fadeInRight">powershell scripts manager</p>
                     </div>
                     <nav class="top-nav">
                         <ul class="top-nav-social hidden-sm">
@@ -181,32 +181,48 @@
             </header>
 
             <div class="container">
-                <div class="center-block logig-form">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">Login Form</div>
-                        <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="section-title no-margin-top">Tool Definition</h2>
+                    </div>
+                    <div class="col-md-8">
+                        <section>
+                            <p>
+                                Enter the definition here...
+                            </p>
                             <form role="form">
                                 <div class="form-group">
-                                    <div class="input-group login-input">
-                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" class="form-control" placeholder="Username">
-                                    </div>
-                                    <br>
-                                    <div class="input-group login-input">
-                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="password" class="form-control" placeholder="Password">
-                                    </div>
-                                    <div class="checkbox">
-                                        <input type="checkbox" id="checkbox_remember">
-                                        <label for="checkbox_remember">Remember me</label>
-                                    </div>
-                                    <button type="submit" class="btn btn-ar btn-primary pull-right">Login</button>
+                                    <label for="InputName">User Info:</label>
+                                    <input type="text" class="form-control" id="InputName"
+                                        placeholder="User name, last name, login">
                                 </div>
+                                <div class="form-group">
+                                    <label for="InputName">User Hint:</label>
+                                    <input type="text" class="form-control" id="InputName" placeholder="SSN, Pin Code">
+                                </div>
+                                <button type="submit" class="btn btn-ar btn-primary">Submit</button>
+                                <div class="clearfix"></div>
                             </form>
-                        </div>
+                        </section>
+                    </div>
+
+                    <div class="col-md-4">
+                        <section>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading"><i class="fa fa-file-text-o"></i>Instructions</div>
+                                <div class="panel-body">
+                                    <div>
+                                        Type the instructions here...
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
-            </div> <!-- container  -->
+
+                <hr class="dotted">
+
+            </div> <!-- container -->
             <footer id="footer">
                 <p>&copy; 2019 <a href="00_index.html">Axiom Bridge</a>, inc. All rights reserved.</p>
             </footer>
