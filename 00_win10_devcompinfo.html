@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>CSVRMC - Axion Bridge Windows 10 Dev Computer Info</title>
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+
+    <meta name="description" content="">
+
+    <!-- CSS -->
+    <link href="assets/css/preload.css" rel="stylesheet">
+
+    <!-- Compiled in vendors.js -->
+    <!--
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-switch.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/slidebars.min.css" rel="stylesheet">
+    <link href="assets/css/lightbox.css" rel="stylesheet">
+    <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="assets/css/buttons.css" rel="stylesheet">
+    -->
+
+    <link href="assets/css/vendors.css" rel="stylesheet">
+    <link href="assets/css/syntaxhighlighter/shCore.css" rel="stylesheet">
+
+    <!-- RS5.0 Stylesheet -->
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/navigation.css">-->
+
+    <link href="assets/css/style-violet.css" rel="stylesheet" title="default">
+    <link href="assets/css/width-full.css" rel="stylesheet" title="default">
+
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<body>
+
+    <div class="sb-site-container">
+        <div class="boxed">
+
+            <header id="header-full-top" class="hidden-xs header-full">
+                <div class="container">
+                    <div class="header-full-title">
+                        <h1 class="animated fadeInRight"><a href="00_index.html">is <span>helpdesk</span></a></h1>
+                        <p class="animated fadeInRight">Powershell scripts manager</p>
+                    </div>
+                    <nav class="top-nav">
+                        <ul class="top-nav-social hidden-sm">
+                            <li><a href="#" class="animated fadeIn animation-delay-7 linkedin"><i
+                                        class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#" class="animated fadeIn animation-delay-6 flickr"><i
+                                        class="fa fa-flickr"></i></a></li>
+                        </ul>
+
+                        <div class="dropdown animated fadeInDown animation-delay-11">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>
+                                Login</a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated flipCenter">
+                                <form role="form">
+                                    <h4>Login Form</h4>
+                                    <div class="form-group">
+                                        <div class="input-group login-input">
+                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <input type="text" class="form-control" placeholder="Username">
+                                        </div>
+                                        <br>
+                                        <div class="input-group login-input">
+                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <input type="password" class="form-control" placeholder="Password">
+                                        </div>
+                                        <div class="checkbox pull-left">
+                                            <input type="checkbox" id="checkbox_remember1">
+                                            <label for="checkbox_remember1">
+                                                Remember me
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-ar btn-primary pull-right">Login</button>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div> <!-- dropdown -->
+                    </nav>
+                </div> <!-- container -->
+            </header> <!-- header-full -->
+            <nav class="navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top" role="navigation"
+                id="header">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a id="ar-brand" class="navbar-brand hidden-lg hidden-md hidden-sm" href="00_index.html">is
+                            <span>Helpdesk</span></a>
+                    </div> <!-- navbar-header -->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="00_index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="00_caller_validation.html">Call Validator</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"
+                                    data-hover="dropdown">Windows 10</a>
+                                <ul class="dropdown-menu dropdown-menu-left animated-2x animated fadeIn">
+                                    <li><a href="00_win10_inplace.html">In Place Congifuration</a></li>
+                                    <li><a href="00_win10_repoutdated.html">Replace Outdated</a></li>
+                                    <li><a href="00_win10_devcompinfo.html">Dev Computer Info</a></li>
+                                    <li><a href="00_win10_printmappings.html">Printer Mappings</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"
+                                    data-hover="dropdown">Reports</a>
+                                <ul class="dropdown-menu dropdown-menu-left animated-2x animated fadeIn">
+                                    <li class="dropdown-submenu">
+                                        <a href="javascript:void(0);" class="has_children">Administrators</a>
+                                        <ul class="dropdown-menu dropdown-menu-left">
+                                            <li><a href="#">Admin Report 001</a></li>
+                                            <li><a href="#">Admin Report 002</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="javascript:void(0);" class="has_children">Supervisors</a>
+                                        <ul class="dropdown-menu dropdown-menu-left">
+                                            <li><a href="#">Sup Report 001</a></li>
+                                            <li><a href="#">Sup Report 002</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="javascript:void(0);" class="has_children">Users</a>
+                                        <ul class="dropdown-menu dropdown-menu-left">
+                                            <li><a href="#">User Report 001</a></li>
+                                            <li><a href="#">User Report 002</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div><!-- navbar-collapse -->
+                </div><!-- container -->
+            </nav>
+
+            <header class="main-header">
+                <div class="container">
+                    <h1 class="page-title">Dev Computer Info</h1>
+
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="00_index.html">Home</a></li>
+                        <li class="active">Dev Computer Info</li>
+                    </ol>
+                </div>
+            </header>
+
+            <div class="container">
+                <div class="center-block logig-form">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Login Form</div>
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <div class="input-group login-input">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" class="form-control" placeholder="Username">
+                                    </div>
+                                    <br>
+                                    <div class="input-group login-input">
+                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                        <input type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="checkbox_remember">
+                                        <label for="checkbox_remember">Remember me</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-ar btn-primary pull-right">Login</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- container  -->
+            <footer id="footer">
+                <p>&copy; 2019 <a href="00_index.html">Axiom Bridge</a>, inc. All rights reserved.</p>
+            </footer>
+
+        </div> <!-- boxed -->
+    </div> <!-- sb-site -->
+
+    <div id="back-top">
+        <a href="#header"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Compiled in vendors.js -->
+    <!--
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.cookie.js"></script>
+<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-switch.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/slidebars.min.js"></script>
+<script src="assets/js/jquery.bxslider.min.js"></script>
+<script src="assets/js/holder.js"></script>
+<script src="assets/js/buttons.js"></script>
+<script src="assets/js/jquery.mixitup.min.js"></script>
+<script src="assets/js/circles.min.js"></script>
+<script src="assets/js/masonry.pkgd.min.js"></script>
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+-->
+
+    <script src="assets/js/vendors.js"></script>
+
+    <!--<script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+<script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>-->
+
+
+    <!-- Syntaxhighlighter -->
+    <script src="assets/js/syntaxhighlighter/shCore.js"></script>
+    <script src="assets/js/syntaxhighlighter/shBrushXml.js"></script>
+    <script src="assets/js/syntaxhighlighter/shBrushJScript.js"></script>
+
+    <script src="assets/js/DropdownHover.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/holder.js"></script>
+
+</body>
+
+</html>
